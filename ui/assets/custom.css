@@ -1,0 +1,20 @@
+/* Custom Global Utility Classes */
+.stButton button[kind="primary"] {
+    background-color: var(--accent-cyan);
+    color: var(--bg-obsidian);
+    font-weight: 700;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.stButton button[kind="primary"]:hover {
+    background-color: var(--accent-teal);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(102, 252, 241, 0.3);
+}
+
+.stTextInput input {
+    border-radius: var(--radius-md);
+    border: 1px solid var(--text-secondary);
+}
+
